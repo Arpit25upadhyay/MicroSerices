@@ -1,0 +1,40 @@
+DDD- Food Delivery App
+
+Domains:
+Uers
+Restaurants
+Orders
+Delivery
+Payment
+
+Bounded Context:
+User Context: Manages accounts, and profiles.
+Restaurant Context: Manages restaurant, menu items, and restaurant-related operations.
+Order Context: Handles the creation, management, and tracking of orders.
+Delivery Context: Delivery logistics, including assignment and tracking of deliveries.
+Payment Context: Payment processing, transactions, and refunds.
+
+
+Services:
+1. User Service
+  User registration and authentication.
+  User profile management.
+  Managing user preferences and order history.
+
+2. Restaurant Service
+  Restaurant registration and management.
+  Menu management.
+  Restaurant reviews and ratings.
+
+3. Order Service
+  Order placement and management.
+  Order status tracking.
+  Order history retrieval.
+
+4. Delivery Service
+  Managing delivery.
+  Delivery status.
+
+5. Payment Service
+  Processing payments.
+  Handling refunds and payment status tracking.
